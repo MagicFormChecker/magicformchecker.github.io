@@ -1,0 +1,299 @@
+﻿body
+{
+    margin:0px;
+     background-image:none !important;
+      font-family: CeraProLight !important;
+}
+
+
+.container-fluid, #slideshowbox, .row, .col
+{
+padding-right: 0px;
+    padding-left: 0px;
+}
+
+.row{
+    margin-left:0px;
+    margin-right:0px;
+}
+
+
+
+.teammobile
+{
+    display:none;
+}
+.row .ptypemain
+{
+    padding-top:90px;
+    width:100%;
+
+}
+
+.transition-slideup
+{
+	color:rgba(195, 176, 133, 1.0) !important;
+}
+
+.teamtitle h1
+{
+    text-transform:uppercase;
+     color:rgba(195, 176, 133, 1.0);
+     font-size:23px;
+     width:100%;
+    text-align:center;
+    font-family: CeraProMedium;
+ 
+}
+
+.teamintro
+{
+    padding-top:90px;
+}
+
+.teamimagetext .teamimage, .teamimagetext .teamtext
+{
+	width:50%;
+	float:left;
+}
+
+.teamtextimage .teamimage
+{
+	width:30%;
+	float:left;
+}
+
+.teamtextimage .teamtext
+{
+	float:left;
+}
+
+.teamimage img
+{
+    width:100%;
+    height:100%;
+}
+
+  .teammember
+  {
+      margin-bottom:200px;
+		width:50%;
+  }
+
+  .teammember:first-child
+  {
+      margin-top:100px;
+  }
+
+    .teammember:last-child
+    {
+        margin-top:0px;
+    }
+
+
+
+    .teamimagetext > .teamtext .teamdeta,  .teamimagetext > .teamtext .teamtesti
+    {
+        width:100%;
+        padding:0px 0px 0px 35px;
+    }
+
+    .teamimagetext > .teamtext h2:first-child
+    {
+        text-transform:uppercase;
+         color: rgba(195, 176, 133, 1.0);
+    font-size: 18px;
+     width:100%;
+     font-family: CeraProLight;
+    }
+     .teamimagetext > .teamtext p
+    {
+     width:70%;
+     color:rgba(195, 176, 133, 1.0);
+     margin-top:20px;
+      font-family: CeraProLight;
+	  font-size:15px;
+    }
+
+     .teamtesti h1
+     {
+         
+     color:rgba(195, 176, 133, 1.0);
+     font-size:16px;
+     width:100%;
+     font-weight:bold;
+     }
+
+       .teamtesti h2
+     {
+         
+     color:rgba(195, 176, 133, 1.0);
+     font-size:15px;
+     width:100%;
+     }
+
+    .teamimagetext .teamtext .teamtesti p
+    {
+         width:70%;
+     color:rgba(195, 176, 133, 1.0);
+        font-size:15px;
+  
+    }
+
+    .teamimagetext > .teamtext a 
+    {
+         width:100%;
+     color:rgba(195, 176, 133, 1.0);
+        font-size:15px;
+        font-weight:bold;
+  
+    }
+    
+    .teamtesti p
+    {
+        margin-top:50px;
+    }
+
+    .teamtextimage .teamtext
+    {
+        padding:0px 35px 0px 0px;
+        width:70%;
+         
+    }
+
+    .teamtextimage > .teamtext h2:first-child
+    {
+          text-transform:uppercase;
+     color:rgba(195, 176, 133, 1.0);
+     font-size:17px;
+     width:100%;
+     text-align:right;
+    }
+
+    .teamtextimage > .teamtext p
+    {
+        width: 100%;
+    color: rgba(195, 176, 133, 1.0);
+    margin-top: 20px;
+	font-size:15px;
+    }
+
+    .teamtextimage > .teamtext a
+    {
+         width:100%;
+     color:rgba(195, 176, 133, 1.0);
+        font-size:14px;
+        font-weight:bold;
+        text-align:left;
+    }
+
+    .teamtextimage > .teamtext > .row
+    {
+        width:90%;
+        float:right;
+    }
+    
+    .teamtextimage .teamtext .teamtesti p
+    {
+             width:100%;
+     color:rgba(195, 176, 133, 1.0);
+        font-size:15px;
+  
+    }
+
+    .teammember:last-child
+    {
+        margin-bottom:100px;
+    }
+
+
+
+#teamlist > div.row
+{
+	display:block;
+	width:100%;
+}
+
+
+ @media screen and (max-width:800px)
+ {
+
+     .teamdesktop
+     {
+         display:none !important;
+     }
+     .teammobile
+     {
+         display:block !important;
+     }
+
+
+     .teamimage
+     {
+         min-width:100%;
+         padding:0px;
+     }
+     .teamtext
+     {
+          min-width:100%;
+          margin-top:30px;
+          margin-bottom:30px;
+          padding:0px 20px !important;
+     }
+     .teamimagetext > .teamtext .teamdeta, .teamtesti
+     {
+         padding:0px !important;
+     }
+     .teamimagetext > .teamtext p
+     {
+         width: 100%;
+     }
+     .teamimagetext .teamtext .teamtesti p
+     {
+         width: 100%;
+     }
+     .teamtextimage > .teamtext > .row, .teamtextimage > .teamtext > .row
+     {
+          width: 100%;
+     }
+     .teamtextimage > .teamtext h2:first-child
+     {
+         text-align:left;
+     }
+     .teammember
+     {
+         margin-bottom:20px;
+     }
+     #body > .col > .row
+     {
+             margin-bottom: 30px;
+     }
+     .teamintro
+     {
+         padding-top:0px;
+     }
+     .teammember:first-child
+     {
+         margin-top:40px;
+     }
+
+ }
+
+ @media screen and (max-width:450px)
+ {
+
+	.teamimagetext > .teamtext h2:first-child, .teamtextimage > .teamtext h2:first-child
+	{
+		text-align:center;
+	}
+	footer {
+    margin-top: 0px;
+}
+	.testimonialoverimage
+	{
+		display:block;
+	}
+	
+	
+
+ }

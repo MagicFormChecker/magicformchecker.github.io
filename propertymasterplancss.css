@@ -1,0 +1,255 @@
+
+/****************** Masterplan *****************/
+
+#masterplan
+{
+	display:block;
+	height:auto;
+	width:100%;
+	min-height:50vw;
+}
+
+.property img.masterplanimage, .masterplanimage
+{
+	position:absolute;
+	margin-left:20% !important;
+	width:60% !important;
+	height:auto !important;
+}
+
+#masterplanblue, #masterplanpink 
+{
+	display: none;
+}
+
+#masterplan h1
+{
+	text-align:left;
+	font-size:20px;
+	margin-bottom:7px;
+}
+
+#masterplan p
+{
+	color:black;
+	padding:0px;
+	font-size:17px;
+	text-align:left;
+}
+
+
+#gardenbox
+{
+	display: none;
+	position:absolute;
+	width:40%;
+	border-left:1px solid #87764d;
+	border-bottom:1px solid #87764d;
+	height:180px;
+	margin-left:10%;
+	margin-top:calc(27vw - 180px);
+}
+
+#gardeninside
+{
+	display: none;
+	width:35%;
+	float:left;
+	margin-left:5%;
+	margin-bottom:5%;
+}
+
+
+#apartmentbox
+{
+	display: none;
+	position:absolute;
+	width:10%;	
+	margin-left:65%;
+	border-right:1px solid #87764d;
+	border-bottom:1px solid #87764d;
+	height:25vw;
+	margin-top:6%;
+}
+
+#apartmentboxcontent
+{
+	display: none;
+	position:absolute;
+	width:15%;
+	margin-left:76%;
+	margin-top:6%;
+}
+
+#townhousebox
+{
+	display: none;
+	position:absolute;
+	width:32%;
+	border-top:1px solid #87764d;
+	margin-left:17%;
+	margin-top:39%;
+}
+
+#townhouseinside
+{
+	display: none;
+	width:50%;
+	float:left;
+	margin-top:15px;
+}
+
+
+#parkingbox
+{
+	display: none;
+	position:absolute;
+	width:25%;	
+	margin-left:65%;	
+	border-top:1px solid #87764d;
+	height:auto;
+	margin-top:37vw;
+}
+
+#parkinginside
+{
+	display: none;
+	width:60%;
+	margin-left:30%;
+	margin-top:15px;
+}
+
+
+#holdingmasterplan
+{
+	display:none;
+}
+
+.property img.masterplanpointer, .masterplanpointer
+{
+	width:21px !important;
+	height:20px !important;
+	position:absolute;
+	margin:0px; 
+	padding:0px;
+}
+
+#gardenbox img.masterplanpointer
+{
+	margin-left:60%;
+	margin-top:169px;
+}
+
+#apartmentbox img.masterplanpointer
+{
+	margin-left:-20px;
+	margin-top:calc(25vw - 10.5px);
+}
+
+#townhousebox img.masterplanpointer
+{
+	margin-left:50%;
+	margin-top:-10px;
+}
+
+#parkingbox img.masterplanpointer
+{
+	margin-left:-20px;
+	margin-top:-10px;
+}
+
+.mastercomplete #gardenbox, .mastercomplete #gardeninside, .mastercomplete #masterplanpink, 
+.mastercomplete #apartmentbox, .mastercomplete #apartmentboxcontent, .mastercomplete #masterplanblue,
+.mastercomplete #townhousebox, .mastercomplete #townhouseinside, .mastercomplete #parkingbox, .mastercomplete #parkinginside
+{
+	display:block;
+}
+
+@media screen and (max-width:1502px) 
+{
+	#masterplan
+	{
+		min-height:59vw;
+	}
+}
+
+@media screen and (max-width:1315px)
+{
+	#masterplan p
+	{
+		font-size:14px;
+	}
+}
+
+@media screen and (max-width:1156px)
+{
+	#parkingbox
+	{
+		margin-top:39vw;
+	}
+
+	#gardenbox
+	{
+		width:39%;
+		margin-top:calc(29vw - 180px);
+	}
+
+	#masterplan h1
+	{
+		font-size:17px;
+	}
+}
+
+@media screen and (max-width:985px)
+{
+	/*#holdingmasterplan
+	{
+		display:block;
+	}
+
+	#masterplan
+	{
+		display:none;
+	}*/
+
+
+	#gardenbox, #apartmentbox, #townhousebox, #parkingbox
+	{
+		border:0px !important;
+	}
+
+	.masterplanpointer
+	{
+		display:none;
+	}
+
+	.property img.masterplanimage, .masterplanimage
+	{
+		margin-left:0px !important;
+	}
+
+	#gardenbox, #apartmentboxcontent, #townhousebox, #parkingbox
+	{
+		width:40%;
+		margin-left:60%;
+		margin-top:60px;
+	}
+
+	#gardeninside, #townhouseinside, #parkinginside
+	{
+		width:100%;
+	}
+
+	.mastercomplete #gardenbox, .mastercomplete #gardeninside,  
+	.mastercomplete #apartmentbox, .mastercomplete #apartmentboxcontent, 
+	.mastercomplete #townhousebox, .mastercomplete #townhouseinside, .mastercomplete #parkingbox, .mastercomplete #parkinginside
+	{
+		display:none;
+	}
+
+	.mastercomplete #masterplanpink,.mastercomplete #masterplanblue, 
+	.mastercomplete #townhousebox.musttoshow, .mastercomplete #townhouseinside.musttoshow,.mastercomplete #apartmentboxcontent.musttoshow
+	{
+		display:block;
+	}
+}

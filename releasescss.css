@@ -1,0 +1,499 @@
+﻿map area
+{
+	background:red;
+}
+
+footer{
+	margin-top:150px;
+}
+.areazone
+ {
+    display: none;
+    position: absolute;
+          margin-left: 34%;
+    width: 13%;
+    margin-top: -300px;
+    background-color: white;
+}
+.areatitle h2
+{
+	    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px !important;
+
+}
+.imgarea {
+    text-transform: lowercase;
+    font-size: 16px;
+}
+
+ .transition-slideup
+  {
+      text-transform: uppercase;
+    color: white;
+    font-size: 23px;
+    font-family: CeraProLight;
+    width:100%;
+    margin-bottom:5px;
+	margin-top:0px !important;
+  }
+
+.centre 
+{
+    text-align: center;
+}
+
+.underline:after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 1px;
+    background: white;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin: 30px auto 30px auto;
+}
+
+.underline:after {
+    height: 2px;
+}
+
+
+
+#updatep
+{
+    text-align:center;
+    color:white;
+    text-transform:uppercase;
+    font-family: CeraProLight;
+	display:none;
+}
+
+#updatep p
+{
+  font-family: CeraProLight;
+ width:100%;
+ text-align:center;
+ color:white !important;
+}
+#lastupdate
+{
+    font-weight:bold;
+}
+
+#floorplanbigdiv
+{
+	width:100%;
+	max-width:900px;
+	margin:100px auto;
+	font-family: CeraProLight;
+}
+
+.contact
+{
+    width:100%;
+}
+
+#contactp
+{
+    width:100%;
+    margin-bottom:150px;
+}
+
+#titlepage
+{
+    color:white;
+	font-weight:bold;
+	font-family:CeraProMedium;
+}
+
+
+#contactp p
+{
+    width:auto;
+    padding:9px 20px;
+    color:white;
+    background-color:rgba(195, 176, 133, 1.0);
+    margin: 20px auto;
+    text-align:center;
+    text-transform:uppercase;
+}
+#contactp p a
+{
+    color:white;
+}
+
+#contactp p:hover
+{
+    color:rgba(195, 176, 133, 1.0) !important;
+    text-decoration:none;
+    background-color:white;
+}
+#contactp p a:hover
+{
+    color:rgba(142, 126, 84, 1.0);
+    background-color:white;
+    text-decoration:none;
+}
+
+
+#registerlink
+{
+
+}
+
+
+.contentacordeon
+{
+	height:0px;
+	overflow:hidden;
+    width:100%;
+}
+
+#footerform, .contactdetails
+{
+    display:none;
+}
+.contentacordeoninside
+{
+	height:auto;
+	padding:0px;
+}
+
+#footernavs .row:nth-child(3)
+{
+    padding-top:60px;
+}
+
+
+.titleacordeon, .tableheadings
+{
+	color:white !important;
+	text-transform:uppercase;
+	font-size:19.5px;
+	font-weight:100;
+	display:table;
+	height:auto;
+	width:100%;
+}
+
+.tableheadings
+{
+	padding:9px 20px;
+	border-bottom:solid 2px white;
+}
+
+ .titleacordeon:hover
+ {
+     text-decoration:none;
+ }
+.row
+{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+
+.titleacordeon span, .tableheadings span
+{
+	font-size:14px;
+	width:14%;
+	display:block;
+	float:left;
+	text-align:center;
+}
+
+.noparking
+{
+	
+}
+
+.titleacordeon span:first-child, .tableheadings span:first-child
+{
+	font-size:14px;
+	width:13%;
+	display:block;
+	float:left;
+	text-align:center;
+}
+
+.titleacordeon span:last-child, .tableheadings span:last-child
+{
+	font-size:14px;
+	width:15%;
+	display:block;
+	float:left;
+	background-image:none;
+}
+
+	.tableheadings span:last-child 
+	{
+	width:15%;
+	}
+
+.titleacordeon:hover
+{
+	color:white !important;
+}
+
+.contentacordeoninside img
+{
+	width:100%;
+	height:auto;
+	display:block;
+}
+
+body
+{
+    margin:0px;
+}
+
+.container-fluid
+{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.titlereleases
+{
+    padding-top:80px;
+}
+.titlereleases h1
+{
+    text-transform: uppercase;
+    color: white;
+    font-size: 23px;
+    text-align:center;
+    width:100%;
+}
+#floorplanbigdiv h1 
+{
+    width: 100%;
+    border-bottom: solid 2px #c3b085;
+    padding: 7px 0px;
+    background-color:#c3b085;
+}
+#floorplanbigdiv h1 a
+{
+	background-image: url(/gfx/arrowdownwhite.png);
+    background-repeat: no-repeat;
+    background-size: auto 15px;
+    background-position: right;
+    width: calc(100% - 30px);
+    font-size:17px;
+    padding-left:15px;
+}
+
+
+body
+{
+/*	background-color:black;*/
+}
+
+#floorplanbigdiv h1 a:hover
+{
+
+    text-decoration:none;
+    color:white;
+
+}
+.subtitlehead {
+    border-bottom: solid 2px white;
+    padding: 10px 0px;
+}
+.subtitleacordeon2 {
+    border-bottom: solid 1px white;
+    padding: 10px 20px;
+}
+.subtitleacordeon2 span:last-child {
+    /*background-image: url(/gfx/floorplan-btn.png);
+    background-repeat: no-repeat;    
+    background-position: right;    */
+}
+.optionbuttons
+{
+	width:100%;
+	margin-top:25px;
+	text-align:right;
+}
+.optionbuttons a
+{
+	display:inline-block;
+    color: white;
+    padding:5px 25px;
+    background-color:rgba(142, 126, 84, 1.0);
+    margin: 20px 0 0 15px;
+    border:solid 1px rgba(142, 126, 84, 1.0);
+    font-size:13px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+.optionbuttons a:hover
+{
+    color: rgba(142, 126, 84, 1.0);    
+    background-color:white;    
+}
+
+
+.subtitleacordeon2 span:last-child
+{
+    background-image: url(/gfx/arrowdownwhite.png);
+    background-repeat: no-repeat;
+    background-size: auto 15px;
+    background-position: right;
+}
+
+@media screen and (max-width:780px)
+{
+	.subtitleacordeon2 span:last-child
+	{
+		color:rgba(0,0,0,0);
+	}
+}
+
+@media screen and (max-width:729px)
+{
+	.titleacordeon span, .tableheadings span
+	{
+		text-align:center;
+	}
+
+	.subtitleacordeon2, .tableheadings
+	{
+		padding:10px 10px 10px 0px;
+	}
+}	
+@media screen and (max-width:1200px)
+{
+	body
+{
+	
+	background-size: initial;
+}
+}
+
+@media screen and (max-width:660px)
+{
+	#floorplanbigdiv h1 a, .subtitleacordeon2 span:last-child
+    {
+        background-size: auto 11px;
+	}
+
+    .titleacordeon
+    {
+        font-size: 17px;
+    }
+    .subtitleacordeon span:last-child
+    {
+        background-size: auto 11px;
+    }
+    .titleacordeon span
+    {
+        font-size:12px;
+    }
+	.tableheadings span, .titleacordeon span, .tableheadings span:first-child, .tableheadings span:last-child
+	{
+		font-size:12px;
+	}
+
+	.titleacordeon span:last-child
+	{
+		width:4%;
+	}
+
+	.tableheadings span:first-child
+	{
+			width:8%;
+	}
+
+	.titleacordeon span, .tableheadings span
+	{
+		width:16%;
+	}
+
+	.titleacordeon span:first-child, .tableheadings span:first-child
+	{
+		width:10%;
+	}
+
+	.titleacordeon span:nth-child(3), .tableheadings span:nth-child(3)
+	{
+		width:19%
+	}
+}	
+
+@media screen and (max-width:470px)
+{
+    .titleacordeon span:nth-child(2)
+    {
+        text-align:center;
+    }
+
+    	#floorplanbigdiv h1 a
+    {
+        background-size: auto 9px;
+	}
+
+    .titleacordeon
+    {
+        font-size: 14px;
+    }
+    .subtitleacordeon span:last-child
+    {
+        background-size: auto 9px;
+    }
+    .titleacordeon span, .titleacordeon span:first-child, .tableheadings span:first-child
+    {
+        font-size:11px;
+    }
+
+	/*.tableheadings span:first-child::before 
+	{
+		content: 'apt';
+		color:white;
+		padding-left:10px;
+	}
+
+	.tableheadings span:nth-child(4)::before 
+	{
+		content: 'int Area';
+		color:white;
+		padding-left:10px;
+	}*/
+
+	.tableheadings span
+	{
+		text-align:center;
+	}
+	.optionbuttons a
+	{
+		margin:20px 0px 0px 10px !important;
+		font-size:11px !important;
+	}
+
+	.tableheadings, .subtitleacordeon2
+	{
+		padding: 9px 0px;
+	}
+	
+}	
+
+@media screen and (max-width:340px)
+{
+	#floorplanbigdiv h1 a
+	{
+		font-size:16px;
+	}
+}
+
+@media screen and (max-width:312px)
+{
+	#floorplanbigdiv h1 a
+	{
+		font-size:15px;
+	}
+}
