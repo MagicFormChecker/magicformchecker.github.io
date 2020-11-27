@@ -1,0 +1,40 @@
+﻿
+
+@media only screen and (min-width:1060px)
+{	
+	
+}
+
+@media only screen and (min-width:730px) and (max-width:1060px)
+{		
+
+}
+
+@media only screen and (min-width:730px) and (max-width:1023px)
+{				
+	
+}
+
+@media screen and (max-width:729px)
+{
+	.fclogo img
+	{
+		margin-left:-93px !important;
+	}
+}
+
+@media screen and (max-width:450px)
+{
+	.fclogo img
+	{
+		margin-left:-85px !important;
+	}
+}
+
+@media screen and (max-width:800px)
+{
+	#logo img
+	{
+		margin-top:25px;
+	}
+}	
