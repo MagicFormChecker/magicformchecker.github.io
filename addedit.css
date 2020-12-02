@@ -1,0 +1,728 @@
+﻿#tasktype_id option:nth-child(3), #tasktype_id option:nth-child(5), #tasktype_id option:nth-child(8),
+#tasktype_id option:nth-child(9), a.sbtn
+{
+	display:none;
+}
+
+#content
+{	
+	display:table;	
+}
+
+#lccontent
+{
+	background:grey;
+}
+
+#leftnavoptions h3
+{	
+	width:90%;
+	padding:5%;
+	cursor:pointer;	
+}
+
+#leftnavoptions ul, #leftnavoptions img
+{	
+	width:100% !important;
+	min-width:180px;
+}
+
+#leftnavoptions ul
+{	
+	z-index:200;
+}
+
+#addeditform
+{	
+	width:96%;
+	margin:0 3%;	
+}
+
+/* styles for form fields */
+
+#ctl00_contentPL_tabledata > div
+{		
+	display:none;
+}
+
+#ctl00_contentPL_tabledata div.selected
+{		
+	display:block;
+}
+
+.formfields .showbtn
+{
+	display:block;
+	height:20px;
+	margin:10px 0;
+	padding-left:20px;
+	background:url(/gfx/expand-icon.jpg) no-repeat 0px 3px no-repeat;
+}
+
+.formfields > span, .formfields div.buttons
+{
+	clear:both;
+	display:table;	
+	width:100%;
+	margin-bottom:15px;
+}
+
+.tabdata .formfields .buttons > span
+{
+	width:200px;
+	padding:3px 10px;	
+}
+/*.formfields > span.textarea a, .formfields span.html a
+{
+	width:95%;
+}*/
+
+.formfields > span.hiddenfield
+{
+	display:none;
+}
+
+.formfields > span.dropdown a
+{
+	float:right;
+	display:block;	
+	text-transform:uppercase;	
+	color:#B72742;
+}
+
+.altrow
+{
+	background-color:#ddd;
+}
+
+span.doc label
+{
+	width:100%;
+}
+
+span.doc span
+{
+	display:block;
+	position:absolute;
+	width:100%;
+	top:105px;
+	padding:10px 0;
+	font-weight:bold;
+}
+
+.newchild td
+{
+	background-color:#58B800 !important;
+	color:#fff !important;
+}
+
+/* end of styles for form fields */
+
+/* CMS 3 */
+
+#CE_details_ID_ToolBar, #CE_details_ID_CodeViewToolBar
+{
+	/*display:block !important;*/
+}
+
+/* toolkit */
+
+#toolkit
+{
+	float:right;
+	width:20%;	
+	margin-top:20px;
+}
+
+#toolkitlinks
+{
+	background:#c2c2c2;
+	border-radius:12px;
+}
+
+#toolkitlinks h3
+{
+	background:#3e3e3e;
+	border-top-left-radius:12px;
+	border-top-right-radius:12px;
+	color:#fff;
+	text-transform:uppercase;
+	text-align:center;
+	padding:12px 0px;
+	font-size:1.6em;
+	font-weight:lighter;
+}	
+
+#tkshadow
+{
+	width:100%;
+}
+
+#toolkitlinks ul
+{
+	display:table;
+	padding-bottom:8%;
+}
+
+#toolkitlinks li
+{
+	float:left;
+	display:block;
+	width:30%;
+	height:90px;
+	margin-left:3%;
+	margin-top:5%;
+	text-align:center;
+}
+
+#toolkitlinks li a
+{
+	display:block;
+	width:100%;
+}
+
+#toolkitlinks li img
+{
+	width:100%;	
+}
+
+/* main tables */
+
+.addeditmain
+{
+	margin-bottom:20px;
+}
+
+.datamain .tableoptions, .datamain .dataoptions, .addeditmain, .subtable table
+{
+	max-width:800px;
+}
+
+.subtable table
+{
+	width:100%;
+}
+
+/* end main tables */
+
+/* tabs */
+
+.tabhead
+{
+	display:block;
+	padding:10px 0 10px 15px;	
+	box-shadow:2px 0 5px 1px #666;
+	font-size:1.6em;
+	font-weight:bold;
+	color:#000;
+	cursor:pointer;	
+}
+
+.tabhead:hover
+{
+	background-color:#eee;
+}
+
+.tabdata
+{
+	display:none;
+	margin:10px 0;
+	padding:15px;
+	border:1px solid #999;
+	background-color:#eee;
+}
+
+span.hiddenLabel
+{
+	display:none;
+}
+
+/* end tabs */
+
+
+
+/* sub table datalist */
+
+.subtable select, .subtable input.txtbox
+{
+	padding:5px;
+	border-radius:5px;	
+}
+
+.subtable input.txtbox
+{
+	width:75%;
+	padding:7px;	
+}
+
+.datalist.subtable td, .datalist.subtable td.tddd
+{
+	
+}
+
+.newchild td
+{
+	background-color:#58B800 !important;
+	color:#fff !important;
+}
+
+/* end sub tables / datalist */
+
+span.imgloader
+{
+	display:none;
+	width:1%;
+	height:2px;
+	background-color:#B72742;
+}
+
+.imagediv
+{
+	position:relative;
+	width:100px;
+	height:100px;
+	margin-bottom:5px;
+}
+
+span.doc .imagediv
+{	
+	height:150px;
+	width:100%;
+}
+
+.imagediv a.imglink, a.doclink
+{
+	display:block;
+	position:absolute;
+	width:100px;
+	height:100px;	
+	z-index:10;
+}
+
+span.doc .imagediv
+{	
+	margin-top:25px;
+}
+
+.imagediv a.imglink img, .doclink img
+{	
+	width:100px;
+	height:100px;
+}
+
+.imagediv a.delimglink
+{
+	display:none;
+	position:absolute;
+	top:35px;
+	left:80px;
+	width:15px;
+	height:15px;
+	z-index:11;
+}
+
+.imagediv:hover  a.delimglink
+{
+	display:block;
+}
+
+.dbimage, .dbdoc
+{
+	margin-top:10px;
+}
+
+.buttons .btn
+{
+	margin-right:5%;
+}
+
+form.upload, .buttons
+{
+	padding-left:15px !important;
+}
+
+.buttons
+{
+	float:left;
+	margin-top:15px !important;
+}
+
+.subtable .buttons .btn
+{
+	margin:7px 0 7px 15px !important;
+}
+
+.beneficiary div
+{
+	clear:both;	
+}
+
+/*#dtsourcepanel div.row div.buttons a
+{
+	margin-top:80px !important;
+} */
+
+#dtcriteria div.row div.buttons a
+{
+	margin-top:80px !important;
+} 
+
+.mobphonebtt
+{	
+	width: 100%;
+	margin: 20px 0px 20px 0px;
+	border: 1px solid #d5dde0;
+	border-radius: 5px;
+	background: black;/*#f4f7fa;*/
+	font-size: 1.1em;
+	display:block;
+	height:32px;
+	float:left;
+	padding: 6px 12px;
+	color:white;
+	text-align:center;
+}
+
+.mobphonebtt:hover
+{
+	color:white !important;
+}
+
+#vnotesbox
+{
+	display:block !important;
+	padding:0 5% 0 5% !important;
+}
+
+#mvnotes
+{	
+	float: right;
+    padding: 13px 15px 0 0;
+	font-weight:bold;
+	color:#fff;
+}
+
+.vnotes
+{
+	width:80%;
+	float:left;
+}
+
+#vnotesbox span
+{
+	width:20%;
+	float:right;
+	text-align:center;
+}
+
+#vnotesbox span.feedbacktitle
+{
+	width:1000%;
+	float:left;
+	text-align:left;
+	font-weight:bold;
+}
+
+#vnotesbox a
+{
+	clear:both;
+}
+
+#vnotesbox a.savenote
+{
+	display:none;
+}
+
+.companyaddresagentbox 
+{
+	padding:2%;
+	border:1px solid #d5dde0;
+	display:table;
+	height:auto !important;
+	border-radius:5px;
+}
+
+.companyaddresagentbox div
+{
+	border: 1px solid #d5dde0;
+	border-radius: 5px;
+	background: #f4f7fa;
+	font-size: 1.1em;
+	display: block;
+	width: 100%;
+	height: 32px;
+	padding: 6px 12px;
+	font-size: 13px;
+	line-height: 1.42857143;
+	color: #000;
+	border: 1px solid #e4e4e4;
+	border-radius: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	-webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+}
+.companyaddresagentbox a:hover 
+{
+    background: #6e6e6e;
+}
+
+.companyaddresagentbox a {
+	font-size: 1.1em;
+	background: #000000;
+	width: auto;
+	border-radius: 5px;
+	text-transform: uppercase;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: right;
+	padding: 1px 6px;
+	-moz-transition: background 0.5s;
+	-webkit-transition: background 0.5s;
+	-o-transition: background 0.5s;
+	-ms-transition: background 0.5s;
+	transition: background 0.5s;
+	color:white;
+}
+
+div.viewingitemdiv a.dellink
+{
+	padding:0;
+}
+
+#loadmoracommbtt
+{
+    font-size: 1.1em;
+    background: #000000;
+    width: auto;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin: 20px calc(50% - 50px);
+    padding: 1px 6px;
+	float:left;
+    -moz-transition: background 0.5s;
+    -webkit-transition: background 0.5s;
+    -o-transition: background 0.5s;
+    -ms-transition: background 0.5s;
+    transition: background 0.5s;
+	color:white;
+	width:100px;
+	text-align:center;
+
+}
+
+#loadmoracommbtt:hover
+{
+	background: #6e6e6e;
+	text-decoration:none;
+}
+
+/*** Download Section ***/
+
+#downloadlisttitle, .downloaditem
+{
+	width:96%;
+	margin:0px 2%;
+	display:block;
+	float:left;
+	padding:5px 0px;
+}
+
+.downloaditem:nth-child(2n+1)
+{
+	background:#f4f7fa;
+}
+
+.dltitle, .dlitem
+{
+	display:block;
+	float:left;
+	text-align:center;
+}
+
+.dlidate, .dldate { width: 18%; }
+.dlifile, .dlfile { width: 50%; }
+.dlitype, .dltype { width: 12%; }
+.dliwhere, .dlwhere { width: 18%; }
+.dlilink, .dllink { width: 5%; display:none;}
+
+#downloadlistbox
+{
+	display:block;
+	width:100%;
+	height:180px;
+	overflow:auto;
+}
+
+figure.ck-widget img
+{
+	width:120px;
+	float:left;
+	margin:0px;
+}
+
+
+@media screen and (min-width:990px)
+{
+	#imageoptions
+	{
+		position:absolute;
+		top: 218px;
+		left: 1155px;
+		width:105px;
+		padding:0 15px;
+		box-shadow:2px 0 5px 1px #B72742;
+	}
+
+	#imageoptions li
+	{
+		float:none;
+		height:auto;
+		margin-right:0;	
+	}
+
+	#images li a.cropimglink
+	{
+		display:none;
+		position:absolute;
+		top:75px;
+		left:8px;	
+		z-index:11;
+	}
+
+	#images li:hover  a.cropimglink
+	{
+		display:block;
+	}
+
+	#images li span
+	{
+		display:block;
+		margin:3px 0;
+		text-align:center;
+		font-weight:bold;
+	}
+
+	#imageoptions .button
+	{
+		width:80px;
+		border-radius:5px;
+		font-size:0.8em;
+	}
+
+	#dtmarketingsuite
+	{
+		height:265px;
+	}
+}
+
+@media screen and (max-width:1200px)
+{
+   
+
+@media screen and (max-width:950px)
+{
+    .col-sm-9 .panel.show.col5 .formdata > span
+    {
+        width:40% !important;
+    }
+    }
+
+@media screen and (max-width:989px)
+{
+	#imageoptions
+	{
+		display:none;
+	}	
+}
+
+@media screen and (max-width:950px)
+{
+    .col-sm-9 .panel.show.col5 .formdata > span
+    {
+        width:40% !important;
+    }
+    }
+
+@media screen and (min-width:768px)
+{
+	.addeditmain > form > span
+	{
+		clear:both;
+		display:block;
+		width:100%;
+		min-height:32px;
+		padding-bottom:5px;			
+	}	
+
+	.addeditmain form > span label
+	{
+		margin-bottom:0;
+	}
+
+	.beneficiary div
+	{		
+		padding:15px 0 0 15px;
+	}
+}
+
+@media screen and (max-width:767px)
+{
+	.tblvolunteernextofkin tr th:nth-child(2), .tblvolunteernextofkin tr td:nth-child(2),
+	.tblvolunteerdocumentation tr th:first-child, .tblvolunteerdocumentation tr td:first-child,
+	.tblvolunteerdocumentation tr th:nth-child(3), .tblvolunteerdocumentation tr td:nth-child(3),
+	.tblvolunteerholiday tr th:nth-child(2), .tblvolunteerholiday tr td:nth-child(2),
+	.datalist.joinview tr th:nth-child(2), .datalist.joinview tr td:nth-child(2)	
+	{
+		display:none;
+	}
+	.datalist th
+	{
+		font-size:0.8em;
+	}
+	.addeditmain span
+	{
+		display:block;
+		padding-bottom:10px;
+	}
+	.addeditmain span .col-sm-3
+	{		
+		padding:0;
+	}
+	.formdata input.form-control, .formdata textarea, .formdata select
+	{
+		width:100%;
+	}
+
+	.buttons
+	{
+		padding-left:0 !important;		
+	}
+
+	.buttons .btn
+	{
+		width:100%
+	}
+
+	.btn + .btn 
+	{
+		margin-left:0;
+		margin-right:0;
+	}
+}
+
+@media screen and (max-width:520px)
+{
+    .col-sm-9 .panel.show.col5 .formdata > span
+    {
+        width:90% !important;
+    }
+
+    .footer-text
+    {
+        margin-left:10px;
+    }
+}

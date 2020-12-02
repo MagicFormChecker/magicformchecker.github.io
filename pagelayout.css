@@ -1,0 +1,2238 @@
+#dtamenitiespanel div.buttons, #dtviewingapplicantpanel .row .buttons, #dttaskapplicantpanel div.row > div.buttons,
+.taskitemdiv, #addnewoutcome, #ebtncommdetails, #sendsms, #applicanthiddenfields
+{
+	display:none;
+}
+
+#ctl00_contentPL_tabledata, .datapanels 
+{
+	display: table;
+	width: 100%;
+}
+
+.col-sm-9 .panel.show
+{
+	display:block !important;
+	background:white;
+	border: 1px solid #d5dde0;
+	border-radius:5px;
+}
+
+.col-sm-9 .panel.show.left
+{
+	float:left;
+	width:44%;
+	margin-left:4%;
+}
+
+.col-sm-9 .panel.show.right
+{
+	float:left;
+	width:44%;
+	margin-left:4%;
+}
+
+.col-sm-9 .panel.show.left.clear
+{
+	clear:left;
+}
+
+.col-sm-9 .panel.show.right.clear
+{
+	clear:right;
+}
+
+.col-sm-9 .panel.show .formdata > span
+{	
+	height:50px;	
+}
+
+.col-sm-9 .panel.show.col2 .formdata > span
+{
+	width:40%;
+	margin:20px 5% 0 5%;	
+}
+
+.col-sm-9 .panel.show .buttons
+{
+	clear:both;
+	display: table;
+    width: 100%;		
+	text-align:right;
+}
+
+.checkbox label.col-sm-3
+{
+	float:right;
+	width:80%;
+}
+
+.checkbox input
+{
+	float:left;	
+}
+
+.col-sm-9 .panel.show.col3 .formdata > span
+{
+	width:calc(28% - 1px);
+	margin:20px 2.5% 0 2.5%;	
+}
+
+.col2 .buttons .btn {
+    margin-right: 25px;
+}
+
+.col-sm-9 .panel.show.col5 .formdata > span
+{
+	width:16%;
+	margin:20px 2% 0 2%;	
+}
+
+label.col-sm-3
+{
+	font-size:10px;
+}
+
+.col-sm-9 .panel.show.nonedit
+{
+	background:#999;
+}
+
+.col-sm-9 .panel.show .panel-heading, .popup .panel-heading
+{
+	background: #e2e8ef;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+}
+
+.fullcol
+{
+	clear:both;
+	width: 92%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.panel.show label
+{
+	font-size:1.2em;
+	font-weight:lighter;
+	padding:0px 15px;
+}
+
+
+.panel.show input
+{
+	border:1px solid #d5dde0;
+	border-radius:5px;
+	background:#f4f7fa;
+	font-size:1.1em;
+}
+
+
+#addresscompanyagent
+{
+	border:1px solid #d5dde0;
+	border-radius:5px;
+	background:#f4f7fa;
+	font-size:1.1em;
+	height:32px;
+	padding:6px 12px;
+	width:calc(100% - 10px);
+	margin-left:5px;
+}
+
+#addresscompanyagentlink
+{
+	font-size: 1.1em;
+	background: #000000;
+	width: auto;
+	border-radius: 5px;
+	text-transform: uppercase;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	margin-right:5px;
+	float: right;
+	padding: 1px 6px;
+	-moz-transition: background 0.5s;
+	-webkit-transition: background 0.5s;
+	-o-transition: background 0.5s;
+	-ms-transition: background 0.5s;
+	transition: background 0.5s;
+	color:white;
+}
+
+#addresscompanyagentlink:hover 
+{
+	background: #6e6e6e;
+}
+
+#addresscompanyagentbox
+{
+	padding:10px;
+	border:1px solid #d5dde0;
+	display:table;
+	height:auto;
+
+}
+
+.panel.show input#access_notes, #fproduct_company #address
+{
+	width:225%;
+}
+
+.panel.show select
+{
+	border:1px solid #d5dde0;
+	border-radius:5px;
+	font-size:1.1em;
+	-webkit-appearance: none;
+	-moz-appearance:none;
+	background:url(/gfx/select.png) no-repeat 97% 10px, #f4f7fa !important;
+}
+
+.col-sm-9 .panel.show .formdata > span.textarea
+{
+	width:95%;
+	margin:0px 2.5%;
+	height:auto;
+	display:table;
+}
+
+.panel.show textarea
+{
+	border:1px solid #d5dde0;
+	border-radius:5px;
+	background:#f4f7fa;
+	font-size:1.1em;
+}
+
+#fviewingextrainfo textarea#details
+{
+	overflow-y:scroll !important;
+}
+
+#fproduct textarea#description
+{
+	overflow-y:scroll !important;
+}
+
+#fproduct .textarea
+{
+	margin-left:2%;
+	margin-top:30px;
+}
+
+.panel.show #phonenotes textarea
+{
+	width:225%;
+}
+
+.panel.show #phonenotes
+{
+	margin-bottom:70px;
+}
+
+.panel.show div.buttons a, #applicantlinkbtt
+{
+	font-size:1.1em;
+	background:#000000;
+	width:auto;
+	border-radius:5px;
+	text-transform:uppercase;
+	margin-top:10px;
+	margin-bottom:20px;
+	float:right;
+	padding:1px 6px;
+		
+	-moz-transition: background 0.5s;
+	-webkit-transition: background 0.5s;
+	-o-transition: background 0.5s;	
+	-ms-transition: background 0.5s;
+	transition: background 0.5s;
+}
+
+.panel.show div.buttons a:hover, #applicantlinkbtt:hover
+{
+	background:#6e6e6e;
+}
+
+
+.col2 .buttons .btn
+{
+	margin-right:5%;
+}
+
+.col3 .buttons .btn
+{
+	margin-right:4%;
+}
+
+.buttons .label 
+{
+    display: inline-block;    
+    margin-top: 13px;
+	font-size:1em;
+}
+
+label.error
+{
+	font-size:0.9em !important; 
+}
+
+.col-sm-9 .panel.show.col2 .formdata > span.checkbox
+{
+	padding-top:33px;
+}
+
+#development_id option
+{
+	margin-left:20px;
+}
+
+span.checkbox input
+{
+	float:left !important;
+	margin-top:4px !important;
+}
+
+span.checkbox label
+{
+	float:left !important;
+	width:auto !important;
+	padding-right:20px !important;
+}
+
+#quote_price, #quote_price_psf, #quote_price_psm
+{
+    display: block;
+    width: 100%;
+    height: 32px;
+    padding: 6px 12px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #000;
+    background-color: #fdfdfd;
+    background-image: none;
+    border: 1px solid #e4e4e4;
+    border-radius: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+#quote_price
+{
+	background:#f4f7fa;
+}
+
+.contactaddlink
+{
+	display:block;
+	width:10%;
+	text-align:right;
+	font-size:1.6em;
+	padding-bottom:20px;
+	float:left;	
+}
+
+.contactaddlink.readonly
+{
+	cursor:not-allowed;
+}
+
+#fdigitalcomms #email, #fdigitalcomms #mobile, #fdigitalcomms #telephone, #fagentcontact #telephone,
+#dtviewing #property_id, #dtviewingpeople #visitor
+{
+	width:90% !important;
+	float:left;
+}
+
+#amenitieslist
+{
+	width:100%;
+	height:auto;
+	list-style:none;
+	display:table;
+	margin-bottom:20px;
+}
+
+#amenitieslist li
+{
+	display:block;
+	float:left;
+	width:25%;
+	margin:5px 2.5%;
+	font-size:1.2em;
+}
+
+#amenitieslist li:nth-child(3n+2)
+{
+	margin:5px 6%;
+}
+
+#addnewoption
+{	
+	width:96%;
+	margin-right:4%;
+	margin-top:40px;
+	text-align:right;	
+}
+
+#addnewoption .btn
+{
+	margin-bottom:0;
+	border-radius:5px;	
+	font-size:1.2em;
+	text-transform:uppercase;
+}
+
+#viewapplicantbtn, #viewagentbtn
+{
+	padding:8px 12px;
+}
+
+#viewagentbtn
+{
+	display:none;
+}
+
+#dtnotespanel .row .notes
+{
+	width:90%;
+	margin:0px 5%;
+}
+
+#dtnotespanel > div.row
+{
+	max-height:300px;
+	overflow:auto;
+}
+
+#dtnotespanel .row .notes .notesitemdiv
+{
+	width:100%;
+	margin:5px 0px;
+	border:1px solid #d5dde0;
+	border-radius:5px;
+	height:auto;
+	display:table;
+}
+
+#dtnotespanel .row .notes .notesitemdiv .notescontentdiv
+{
+	width:66%;
+	text-align:left;
+	float:left;
+	margin:2%;
+}
+
+#dtnotespanel .row .notes .notesitemdiv .notesinfodiv
+{
+	width:21%;
+	margin-left:auto;
+	float:left;
+	text-align:center;
+	margin:2%;
+}
+
+#dtnotespanel .row .notes .notesitemdiv .notesdeleteddiv 
+{
+	width: 5%;
+	margin-left: auto;
+	float: left;
+	text-align: center;
+	margin: 2% 0%;
+}
+
+.viewingitemdiv
+{
+	width:90%;
+	margin:10px 5% 0px 5%;
+	padding-bottom:10px !important;
+	border-bottom:1px solid #d5dde0;
+	display:block;
+	float:left;
+	overflow:hidden;
+	height:30px;
+}
+
+.viewingitemdiv:last-child
+{
+	border-bottom:0px;
+	margin-bottom:20px;
+}
+
+.viewingitemdiv div div textarea
+{
+	overflow-y:scroll !important;
+	resize:none !important;
+	height:100px !important;
+}
+
+.viewingitemdiv > span
+{
+	display:block;
+	float:left;
+	height:auto;
+	text-align:left;
+}
+
+.vopbtn
+{
+	width:12.5%;
+	text-align:right;
+}
+
+.vopbtn a
+{
+	margin:0 10px 0 0;
+	padding:0 !important;
+}
+
+.viewingdate
+{
+	width:25%;
+}
+
+.viewingapart
+{
+	width:25%;
+}
+
+.viewingalmastaff
+{
+	width:25%;
+	display:block;
+	height:auto;
+}
+
+.viewingitemdiv > a
+{
+	width:12.5%;
+	display:block;	
+	float:left;
+	text-decoration:none;
+}
+
+.viewingitemdiv > a:hover, .viewingitemdiv > a:focus
+{
+	text-decoration:none;
+}
+
+.viewingitemdiv > div
+{
+	float:left;
+	width:100%;
+	margin-top:10px;
+	display:block;
+}
+
+.viewingitemdiv > div span
+{
+	display:block;
+	float:left;
+	height:auto;
+	text-align:left;
+}
+
+.viewingitemdiv > div span:nth-child(1) { width:30%; }
+.viewingitemdiv > div span:nth-child(2) { width:25%; }
+.viewingitemdiv > div span.viewingclientguide { width:100%; padding-top:5px; }
+
+
+/*.viewingppe, .viewingclientguide
+{
+	width:50%;
+	display:block;
+	float:left;
+	height:auto;
+	text-align:center;
+}*/
+
+.viewingitemdiv > div p
+{
+	margin-top:10px;
+	display:block;
+	width:100%;
+	float:left;
+}
+
+.viewingsappli
+{
+	float:left;
+	width:100%;
+}
+
+.viewingscounter
+{
+	width:100%;
+	display:block;
+	margin-bottom:20px;
+	height:auto;
+	float:left;
+}
+
+.viewingscounter > span
+{
+	width:50%;
+	float:left;
+	display:block;
+	text-align:center;
+}
+
+/*** tasks tracker ***/
+
+.taskcounter
+{
+	/*width:100%;
+	float:left;
+	display:block;
+	margin-bottom:10px;*/
+
+	padding: 2px 20px;
+	border-radius: 5px;
+	background: white;
+	border: 1px solid #d5dde0;
+	margin-top: 8px;
+	float: left;
+	margin-left: 15px;
+	display:none;
+}
+
+.taskcounter span
+{
+	color: white;
+	padding: 2px 5px;
+	margin: 0px 5px;
+	cursor: pointer;
+	border-radius: 5px;
+	border: 1px solid white;
+	text-decoration: none;
+}
+
+.taskcounter span.taskcounttotal { background:black; color:white;}
+.taskcounter span.taskcountcomple { background:#59d840; }
+.taskcounter span.taskcountouts { background:#fb3d4d; }
+
+.taskcounter span:hover
+{
+	color:#6e6e6e;
+}
+
+.taskitemdiv
+{
+	width:96%;
+	float:left;
+	margin:0px 2%;
+	border-bottom:1px solid #d5dde0;	
+}
+
+.taskitemdiv span, .taskheading span
+{
+	text-align:center;
+	display:block;
+	float:left;
+	padding:5px 0px;
+}
+
+.taskheading
+{
+	width:96%;
+	float:left;
+	margin:0px 2% 7px 2%;
+	display:block;	
+}
+
+.taskitemdiv span.staffmember, .taskheading span.staffmembertitle { width: 25%;}
+.taskitemdiv span.tasktype, .taskheading span.tasktypetitle { width: 25%;}
+.taskitemdiv span.taskdate, .taskheading span.taskdatetitle { width: 20%;}
+.taskitemdiv span.taskstatus, .taskheading span.taskstatustitle { width: 15%;cursor:pointer;}
+
+.taskitemdiv a
+{
+	text-align:center;
+	display:block;
+	float:left;
+	cursor:pointer;
+	width:10px;
+	margin-left:5%;
+	padding: 5px 0;
+}
+
+/*** Task Tracker Extra information ***/
+
+#masterclockdiv
+{
+	width:90%;
+	margin-left:5%;
+}
+
+#masterclockdiv > div.clockdiv
+{
+	width:50%;
+	float:left;
+}
+
+div.clockdiv span
+{
+	width:90%;
+	margin-left:5%;
+	display:block;
+}
+
+div.clockdiv span.clocktimer
+{
+	font-size:30px;
+}
+
+#telephonetaskapp
+{
+	width: 40%;
+	margin: 20px 5% 20px 5%;
+	border: 1px solid #d5dde0;
+	border-radius: 5px;
+	background: black;/*#f4f7fa;*/
+	font-size: 1.1em;
+	display:block;
+	height:32px;
+	float:left;
+	padding: 6px 12px;
+	color:white;
+}
+
+/*#fcommdetailsemail span textarea#details, */
+#fcommdetails span.html
+{
+	width:96%;
+	height:auto;
+	display:table;
+}
+
+#cke_1_contents
+{
+	height:450px;
+}
+
+#popup iframe
+{
+	width:100%;	
+}
+
+#dtcriteriapanel .commheader
+{
+	width:100%;
+	display:table;
+	height:auto;
+	margin-bottom:10px;
+}
+
+#dtcommunicationspanel .commheader
+{
+	width:calc(100% - 17px);
+	display:table;
+	height:auto;
+	margin-bottom:10px;
+	position:absolute;
+	background:white;
+}
+
+#mycomms
+{
+	margin-top:21px;
+	height: 200px;
+    overflow: auto;
+}
+
+#dtcommunicationspanel .commitem, #dtcriteriapanel .commitem
+{
+	width:100%;
+	display:table;
+	height:auto;
+}
+
+#criteriabody
+{	
+	padding:0 5%;	
+}
+
+#mbudgetdiv
+{	
+	display:table;
+	width:84%;
+	margin:0 5% 30px 5%;
+}
+
+#mbudgetdiv span
+{
+	float:right;
+	width:30%;
+}
+
+#dtcommunicationspanel .commitem:nth-child(2n)
+{
+	background:#e2e8ef;
+}
+
+#dtcommunicationspanel .commheader span, #dtcriteriapanel .commheader span
+{
+	width:20%;
+	text-align:center;
+	display:block;
+	float:left;
+	height:22px;
+	font-size:13px;
+}
+
+#dtcommunicationspanel .commitem span, #dtcriteriapanel .commitem span
+{
+	width:20%;
+	text-align:center;
+	display:block;
+	float:left;
+	height:29px;
+	padding:4px 0px;
+}
+
+#dtcriteriapanel .commitem span
+{
+	height:auto;
+}
+
+#dtcommunicationspanel .commheader span:first-child, #dtcommunicationspanel .commitem span:first-child,
+#dtcommunicationspanel .commheader span:last-child, #dtcommunicationspanel .commitem span:last-child
+{
+	width:15%;
+}
+
+#dtcommunicationspanel .commheader span:nth-child(2), #dtcommunicationspanel .commitem span:nth-child(2),
+#dtcriteriapanel .commitem span
+{
+	width:30%;
+}
+
+#dtcriteriapanel .commitem span
+{
+	margin-right:1%;
+}
+
+#dtcriteriapanel .commitem span:last-child
+{
+	width:4%;
+}
+
+#dtcommunicationspanel .comms
+{
+	width:100%;
+	height:auto;
+	display:table;
+	margin-bottom:10px;
+}
+
+#dtcommunicationspanel .comms .buttons a
+{
+	display:none;
+}
+
+#mycomms > div.row
+{
+	max-height:200px;
+	overflow:auto;
+}
+
+.commitem span a
+{
+	line-height:1.1em;
+	border-radius:5px;
+	text-transform:uppercase;
+	padding:2px 6px;
+}
+
+#dtcriteriapanel .commitem span:last-child a
+{
+	margin:35px 0 0 0;
+	padding:0;
+}
+
+.commitem svg
+{
+	margin-right:5px;
+}
+
+.popupdata a
+{
+	border-radius:5px;
+}
+
+#fleadnegotiator span.checkbox label
+{
+	position:absolute;
+}
+
+.vcancelled, .vcompleted, .vprogress
+{	
+	padding: 5px;	
+}
+
+.vcancelled 
+{
+	background-color: #fb3d4d;	
+}
+
+.vcompleted 
+{
+	background-color: #59d840;	
+}
+
+.vprogress 
+{
+	background-color: #f8bd58;	
+}
+
+#addeditsendemail
+{
+	margin-bottom:0;
+}
+
+#dtemailresponsepanel ul
+{
+	list-style:none;
+	border-bottom: 1px solid #ccc;
+    padding-bottom: 7px;
+}
+
+#sendemailpopup .popupdata
+{
+	margin-top:20px;
+}
+
+#applicantcountinagent
+{
+    width:90%;
+    margin:3px 5% 20px 5%;
+    height:auto;
+    display:table;
+}
+
+#applicantcountinagent svg
+{
+    font-size: 2.0em;
+    color: white;
+    background: black;
+    padding: 4px 7px;
+    border-radius: 5px;
+    width: auto;
+    display: block;
+    float: left;
+}
+
+#applicantcountinagent span
+{
+    font-size: 1.5em;
+    margin-left: 10px;
+    width: auto;
+    display: block;
+    float: left;
+}
+
+.applicantitemagent, .productitemcompa
+{
+    width:96%;
+    float:left;
+    margin:4px 2%;
+    border-bottom:1px solid #eee;
+}
+
+.applicantitemagenttitles, .productstitles
+{
+    width:100%;
+    float:left;
+    padding:10px 2% 4px 2%;
+	background: #f4f7fa;
+}
+
+.applicantitemagent span, .applicantitemagenttitles span, .applicantitemagenttitles a,
+.productstitles span, .productstitles a, .productitemcompa span
+{
+    display:block;
+    float:left;
+    text-align:center;
+    min-height:5px;
+	margin-top:1px;
+	margin-bottom:5px;
+}
+
+.applicantitemagent a, .productitemcompa a
+{
+	width:5%;
+	display:block;
+    float:left;
+    text-align:center;
+    min-height:5px;
+	margin-top:-4px;
+}
+
+.applicantitemagent span:nth-child(1), .applicantitemagenttitles span:nth-child(1){width:4%}
+.applicantitemagent span:nth-child(2), .applicantitemagenttitles span:nth-child(2){width:17%}
+.applicantitemagent span:nth-child(3), .applicantitemagenttitles span:nth-child(3){width:17%}
+.applicantitemagent span:nth-child(4), .applicantitemagenttitles span:nth-child(4){width:14%}
+.applicantitemagent span:nth-child(5), .applicantitemagenttitles span:nth-child(5){width:8%}
+.applicantitemagent span:nth-child(6), .applicantitemagenttitles span:nth-child(6){width:10%}
+.applicantitemagent span:nth-child(7), .applicantitemagenttitles span:nth-child(7){width:5%}
+.applicantitemagent span:nth-child(8), .applicantitemagenttitles span:nth-child(8){width:20%}
+.applicantitemagenttitles a:nth-child(9){width:5%}
+
+.productitemcompa span:nth-child(1), .productstitles span:nth-child(1){width:4%}
+.productitemcompa span:nth-child(2), .productstitles span:nth-child(2){width:25%}
+.productitemcompa span:nth-child(3), .productstitles span:nth-child(3){width:41%}
+.productitemcompa span:nth-child(4), .productstitles span:nth-child(4){width:8%}
+.productitemcompa span:nth-child(5), .productstitles span:nth-child(5){width:16%}
+.productitemcompa span:nth-child(6), .productstitles a:nth-child(6){width:6%}
+
+.applicantitemagent a svg, .productitemcompa a svg
+{
+    font-size: 2.0em;
+    color: white;
+    background: black;
+    padding: 1px 4px;
+    border-radius: 5px;
+    width: auto;
+    display: block;
+    margin: 0px auto;
+}
+
+.productitemcompa.stockred
+{
+	background:#fb3d4d;
+}
+
+.productitemcompa.stockorange
+{
+	background:#f8bd58;
+}
+
+#masterclockdivapp
+{
+	width:100%;
+	display:block;
+	float:left;
+	clear:both;
+	padding-top:20px;
+}
+
+#masterclockdivapp > div
+{
+	width:40%;
+	float:left;
+	margin:10px 5%;
+}
+
+#dtapplicanthiddenfields
+{
+	display:none !important;
+}
+
+#dtapplicantlistagentprofile div.panel-heading
+{
+	margin-bottom:0px !important;
+}
+
+#dtcommunicationspanel, #dtdigitalcomms
+{
+	position:relative;
+}
+
+#speeddials, .mobilequickaction
+{
+	position:absolute;	
+}
+
+#speeddials a, .mobilequickaction a
+{
+	display:inline-block;
+	font-size:2em;	
+}
+
+#speeddials a.phonespeeddial
+{
+	font-size:1.8em;
+}
+
+/*** Buyers Journey ***/
+
+#buyerjourneybuttons
+{
+	position:absolute;
+	top:17px;
+	right:5%;
+}
+
+#buyerjourneybuttons a
+{
+	margin-left: 20px;
+    display: inline-block;
+    font-size: 2em;
+}
+
+.buyjourney span, .buyjourney select, .buyjourney input
+{
+	float:left;
+	margin-left:1%;
+}
+
+.journeytitles, .journeyinputs, .journeyitem
+{
+	float:left;
+	clear:left;
+	display:block;
+	width:100%;
+	padding-left:1%;
+	padding-bottom:5px;
+}
+
+.jiapartment { width : 14%;}
+.jistage  { width : 12%;}
+.jidate  { width : 7%; height:auto;}
+.jiprice  { width : 13%;} 
+.jidisco { width : 16%;} 
+.jiparking { width : 12%;} 
+.jitotal { width : 13%;} 
+
+.journeyitem span
+{
+	border: 1px solid #d5dde0;
+	border-radius: 5px;
+	background: #f4f7fa;
+	font-size: 1.1em;
+	padding:6px 12px;
+}
+
+.journeycancelled span
+{
+	background:rgba(251,61,77,0.6);
+}
+
+.journeyinputs input, .journeyinputs select
+{
+	padding:6px 12px;
+}
+
+.buyjourney span.title
+{
+	text-transform:uppercase;
+}
+
+span.jiapartment.content
+{
+	color:white;
+	background:black;
+}
+
+.journeycancelled span.jiapartment.content
+{
+	background:rgba(251,61,77,1);
+}
+
+#newbuyerjourney
+{
+	border-bottom: 1px solid #d5dde0;
+	display:block;
+	height:75px;
+	width:100%;
+	margin-bottom:25px;
+	overflow:hidden;
+	/*border-width:0px;
+	margin-bottom:25px;*/
+}
+
+#canceljourney
+{
+	border-bottom: 0px solid #d5dde0;
+	display:block;
+	height:0px;
+	width:100%;
+	margin-bottom:25px;
+	overflow:hidden;
+	border-width:0px;
+}
+
+#canceljourney .journeyinputs p
+{
+	float:left;
+	max-width:30%;
+	margin-left:1%;
+}
+
+.buyjourney
+{
+	display:block;
+	height:auto;
+	width:100%;
+	margin-bottom:25px;
+	max-height:254px;
+	overflow:auto;
+}
+
+#newbuyerjourney div:last-child
+{
+	margin-bottom:25px;
+}
+
+#newjiprice, #newjitotal
+{
+	background:white;
+}
+
+.bjmyprop
+{
+	font-weight:bold;
+}
+
+/*property_status_id, journey_date, prop_price, discount_in_price, parking_price, total_price*/
+
+.jisave
+{
+	font-size: 1.1em;
+	background: #000000;
+	width: auto;
+	border-radius: 5px;
+	text-transform: uppercase;
+	float: left;
+	margin-left:1%;
+	padding: 1px 6px;
+	color:white;
+	margin-top:5px;
+	-moz-transition: background 0.5s;
+	-webkit-transition: background 0.5s;
+	-o-transition: background 0.5s;
+	-ms-transition: background 0.5s;
+	transition: background 0.5s;
+}
+
+.journeyitem > a
+{
+	line-height: 1.1em;
+	border-radius: 5px;
+	text-transform: uppercase;
+	padding: 2px 6px;
+	margin-top: 8px;
+	float: left;
+}
+
+#commemtemp
+{
+	display:none;
+	position:absolute;	
+	margin:0;
+	padding:0;	
+	color:#fff;
+	background-color:#000;
+	z-index:10;	
+}
+
+#commemtemp ul, #commemtemp li
+{		
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+#commemtemp div
+{		
+	padding:5px 10px;
+	background-color:#000;
+	color:#fff;	
+}
+
+#commemtemp a
+{	
+	display:block;
+	padding:5px 10px 5px 20px;
+	background-color:#666;
+	color:#fff;	
+	border-radius:0;
+}
+
+#commemtemp a:hover
+{		
+	background-color:#999;
+	color:#fff;		
+}
+
+/******* Marketing Collateral *******/
+
+.markecollaitem
+{
+	width:96%;
+	float:left;
+	margin:0px 2%;
+	border-bottom:1px solid #d5dde0;	
+}
+
+.markecollaitem span, .markcollatitles span, .newmclabels span, .newmcnotelabel, .markecollaitem div.mcbtts
+{
+	text-align:center;
+	display:block;
+	float:left;
+	padding:5px 0px;
+}
+
+.markcollatitles
+{
+	width:96%;
+	float:left;
+	margin:0px 2% 7px 2%;
+	display:block;	
+}
+
+.markecollaitem span.mcqty, .markcollatitles span.mcqty { width:20%;}
+.markecollaitem span.mctitle, .markcollatitles span.mctitle { width:40%;}
+.markecollaitem span.mcdate, .markcollatitles span.mcdate { width:16%;}
+.markcollatitles a.aalink { width:16%;margin-left:4%;padding-top:5px;}
+.markecollaitem div.mcbtts { width:12%;margin-left:5%;}
+
+.markecollaitem a, .markcollatitles a
+{
+	float:none;
+	text-align:center;
+	display:inline-block;	
+	cursor:pointer;
+	width:13px;
+	padding: 0px 5px;
+	margin-bottom:0px;
+}
+
+.mcbtts a
+{
+	margin:0px 7px;
+}
+
+#newmarkcolladiv 
+{
+	border-bottom: 2px solid #d5dde0;
+	width: 96%;
+	float: left;
+	margin: 0px 2% 12px 2%;
+	display: block;
+	padding-bottom: 12px;
+}
+
+#newmarkcollabigdiv
+{
+	overflow:hidden;
+	height:0px;
+}
+
+#newmarkcolladiv input, #newmarkcolladiv select
+{
+	padding:6px 12px;
+}
+.newmclabels
+{
+	margin-top:5px;
+	display: table;
+    height: auto;
+    width: 100%;
+    float: left;
+}
+
+.newmclabels .newmcdevel, .newmclabels .newmctitle,.newmclabels .newmcqty,.newmclabels .newmcdate { text-align:left; }
+.newmcnotelabel {width:96%; text-align:left; margin-left:2%;margin-top:8px;}
+
+.newmclabels .newmcdevel, .newmclabels .newmctitle,.newmclabels .newmcqty,.newmclabels .newmcdate,
+#newmcdevelop, #newmcgift, #newmcqty, #newmcdate { width: 40.5%; margin:0px 2%; float: left; }
+
+#newmcnote 
+{ 
+	width: 85%; 
+	margin:0px 2%; 
+	float: left; 
+	padding:4px 2%;  
+	overflow-y:scroll;
+	resize: none;
+	height:80px;
+}
+
+.mcnoteclass
+{
+	float:left;
+	width:96%;
+	margin:0px 2%;
+	overflow:hidden;
+	height:0px;
+}
+
+.mcnotediv
+{
+	margin:4px 0px 12px 0px;
+}
+
+.newmcsave
+{
+	font-size: 1.1em;
+	background: #000000;
+	width: auto;
+	border-radius: 5px;
+	text-transform: uppercase;
+	float: right;
+	margin-right:2%;
+	padding: 1px 6px;
+	color:white;
+	margin-top:57px;
+	-moz-transition: background 0.5s;
+	-webkit-transition: background 0.5s;
+	-o-transition: background 0.5s;
+	-ms-transition: background 0.5s;
+	transition: background 0.5s;
+}
+
+#marcollabuttons 
+{
+	position: absolute;
+	top: 17px;
+	right: 5%;
+}
+
+#marcollabuttons a
+{
+	margin-left: 20px;
+	display: inline-block;
+	font-size: 2em;
+}
+
+.productlist 
+{
+	display:table;
+	height:auto;
+	margin-bottom:7px;
+	width:100%;
+}
+
+/****** task pop up in applicant ******/
+
+#newtaskpopup #tdtask
+{
+	background:white;
+	display:table;
+	height:auto;
+	width:100%;
+}
+
+#newtaskpopup #ftask > span
+{
+	width:48%;
+	margin:1%;
+	clear:none;
+	float:left;
+}
+
+#newtaskpopup #ftask > span.textarea
+{
+	width:98%;
+}
+
+#newtaskpopup #ftask > span label {
+	font-size: 1.2em;
+	font-weight: lighter;
+	padding: 0px 15px;
+}
+
+#newtaskpopup  .buttons > a
+{
+	font-size: 1.1em;
+    background: #000000;
+    width: auto;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    float: right;
+    padding: 1px 6px;
+    -moz-transition: background 0.5s;
+    -webkit-transition: background 0.5s;
+    -o-transition: background 0.5s;
+    -ms-transition: background 0.5s;
+    transition: background 0.5s;
+	margin-right:1%;
+}
+
+#newtaskquestion
+{
+	border:1px solid black;
+}
+
+#newtaskquestion span
+{
+	width:100%;
+	text-align:center;
+	display:block;
+}
+
+#newtaskquestion >div > a
+{
+	font-size: 1.1em;
+    background: #000000;
+    width: auto;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    float: right;
+    padding: 1px 6px;
+    -moz-transition: background 0.5s;
+    -webkit-transition: background 0.5s;
+    -o-transition: background 0.5s;
+    -ms-transition: background 0.5s;
+    transition: background 0.5s;
+	margin-right:6%;
+	color:white;
+}
+
+#buttonsnewtaskquestion
+{
+	display:table;
+	width:90px;
+	height:auto;
+	margin:30px auto 50px auto;
+}
+
+#sendsms textarea
+{
+	overflow:hidden;
+	resize:none;
+}
+
+/* outlook / internal file browser */
+.fmlinks 
+{		
+	width: 100%;
+	max-width:500px;	
+	margin:0 auto;		
+	list-style: none;
+	padding:10px 5px;
+	background-color:#ccc;
+}
+
+.fmlinks > li
+{		
+	clear:both;		
+	width: 100%;		
+}
+
+.fmlinks > li a
+{		
+	display:block;
+	width:100%;
+	padding:5px 4%;
+	margin:0 auto 5px auto;
+	border:2px solid #000;
+	background-color:#fff;
+	text-align:center;
+	text-transform:capitalize;
+}
+
+.fmlinks > li a:hover
+{		
+	color:#000;
+	background-color:#ddd;		
+}
+
+.fmlinks > li.selected a
+{				
+	background-color:#ccc;		
+}
+
+#fmbuttons
+{
+	position:absolute;	
+}
+
+#fmbuttons a
+{		
+	display:inline-block;
+	width:43%;
+	padding:5px;
+	margin:0 2% 0 0;
+	background-color:#000;
+	text-align:center;
+	border-radius:5px;
+}
+
+.fmlinks > li ul
+{		
+	display:none;		
+	width: 100%;	
+	max-height:200px;	
+	margin: 0 0 10px 0;
+	padding:0;	
+	overflow:auto;
+	list-style:none;		
+}
+	
+.fmlinks li ul li span
+{		
+	float:none;		
+	text-align:left;
+}
+
+.fmlinks li ul li span:first-child img
+{		
+	width:60px;
+	height:60px;
+}
+
+.fmlinks li ul li input
+{				
+	width:auto;
+}
+
+#changeappstatuswithdrawnjourney
+{
+	border:1px solid black;
+}
+
+#changeappstatuswithdrawnjourney span
+{
+	width:100%;
+	text-align:center;
+	display:block;
+}
+
+#changeappstatuswithdrawnjourney >div > a, #havetocreatenewviewing > a
+{
+	font-size: 1.1em;
+    background: #000000;
+    width: auto;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    float: right;
+    padding: 1px 6px;
+    -moz-transition: background 0.5s;
+    -webkit-transition: background 0.5s;
+    -o-transition: background 0.5s;
+    -ms-transition: background 0.5s;
+    transition: background 0.5s;
+	margin-right:6%;
+	color:white;
+}
+
+#buttonschangeappstatus
+{
+	display:table;
+	width:350px;
+	height:auto;
+	margin:30px auto 50px auto;
+}
+
+/* end Outlook file browser */
+
+#fviewingpeople span.textarea
+{
+	margin: 20px 5% 0 5%;
+    width: 90%;	
+}
+
+#fviewingpeople span.textarea textarea
+{	
+	overflow-y: scroll !important;
+}
+
+@media screen and (max-width:1400px) /** locking table to 1280px to scroll to the side*/
+{
+	
+	#dtapplicantlistagentprofile
+	{
+		width:calc(91vw - 40px);
+	}
+
+	#dtapplicantlistagentprofile > div.row
+	{
+		overflow: auto;
+		display: flex;
+		max-height: 80vh;
+	}
+	
+	#dtapplicantlistagentprofile > div.row > div.applicantlist
+	{
+		overflow: auto;
+		display: grid;
+	}
+
+	.applicantitemagent
+	{
+		width: 1280px !important;
+		margin:4px 20px;
+	}
+	
+	.applicantitemagenttitles
+	{
+		width: 1320px !important;
+		padding:10px 20px 4px 20px;
+	}
+
+	.applicantitemagent span:nth-child(1), .applicantitemagenttitles span:nth-child(1){width:51px}
+	.applicantitemagent span:nth-child(2), .applicantitemagenttitles span:nth-child(2){width:217px}
+	.applicantitemagent span:nth-child(3), .applicantitemagenttitles span:nth-child(3){width:217px}
+	.applicantitemagent span:nth-child(4), .applicantitemagenttitles span:nth-child(4){width:179px}
+	.applicantitemagent span:nth-child(5), .applicantitemagenttitles span:nth-child(5){width:102px}
+	.applicantitemagent span:nth-child(6), .applicantitemagenttitles span:nth-child(6){width:128px}
+	.applicantitemagent span:nth-child(7), .applicantitemagenttitles span:nth-child(7){width:64px}
+	.applicantitemagent span:nth-child(8), .applicantitemagenttitles span:nth-child(8){width:256px}
+	.applicantitemagent a, .applicantitemagenttitles a:nth-child(9){width:51px}
+
+	#dtmarketingsuite div.buttons a
+	{
+		float:none;
+		clear:both;
+		display:block;
+		width:50%;
+		margin:0 auto 15px auto;
+	}
+}
+
+@media screen and (max-width:1200px)
+{
+    .col-sm-9 .panel.show.col5 .formdata > span
+    {
+        width:25%;
+    }
+    .col-sm-9 .panel.show.col2 .formdata > span
+    {
+        width:90%;
+    }
+
+	.panel.show input#access_notes
+	{
+		width:100%;
+	}
+}
+
+@media screen and (max-width:950px)
+{
+    .col-sm-9 .panel.show.col5 .formdata > span
+    {
+        width:40%;
+    }
+
+	/**** applicant *****/
+    #dtapplicant, #dtsourcepanel, #dtdigitalcomms, #dtcriteria, #dtagent, #dtagentcontact, #dtcriteriapanel,
+	#dtnotespanel, #dtviewingapplicantpanel, #dtfilemangerpanel, #dtemailresponsepanel
+    {
+        width:92%;
+    }
+
+	#newtaskpopup 
+	{
+		width:92% !important;
+		margin:4% !important;
+	}
+
+	/**** task ****/
+	#dttask, #dttasktwo, #dttaskdetails, #dttaskextrainfo
+	{
+		width:90%;
+	}
+
+	#telephonetaskapp
+	{
+		text-align:center;
+		width:90%;
+	}
+
+	#dttask #telephonetaskapp
+	{
+		margin-left:0px;
+		width:100%;
+	}
+}
+
+@media screen and (max-width:768px)
+{
+
+    .sidebar-menu .main-menu li.moredatabase-link a > i
+    {
+        color:black;
+    }
+       .main-menu > li:hover
+    {
+        background:none;
+    }
+    .sidebar-menu.collapsed .main-menu > li > ul 
+    {
+        background:none !important;
+    }
+        
+
+    .page-container .sidebar-menu 
+    {
+    position: relative;
+    z-index: 99999;
+   
+    }
+    #notifilink
+    {
+        right:90px;
+    }
+    .sidebar-menu .logo-env
+    {
+        border-bottom:solid 0px black;
+    }
+    .logo
+    {
+        display:none;
+    }
+
+    #main-menu
+    {
+         width: 30%;
+        background-color: #F0F0F0;
+        color:black !important;
+    }
+    .sidebar-user-info .user-profile span strong
+    {
+        color:black;
+        background-color: #F0F0F0;
+    }
+    .user-profile
+    {
+        color:black;
+        background-color: #F0F0F0;
+        width:30%;
+    }
+    .fa-bars
+    {
+        color:black;
+    }
+    .sidebar-menu .main-menu a
+    {
+    color:black;
+    }
+    .page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle
+    {
+        padding-right: 20px;
+    }
+    .sidebar-menu-inner
+    {
+        left: initial !important;
+    top: initial !important;
+    bottom: initial !important
+    }
+    .footer-text
+    {
+        margin-left:20px;
+    }
+
+	#dtcommunicationspanel
+	{
+		width:90vw;
+	}
+
+	#dtcommunicationspanel div.row div
+	{
+		width:900px;
+	}
+}
+
+@media screen and (min-width:521px)
+{
+	.popuptall, .popupsm
+	{
+		height:70vh;
+	}
+
+	/*.popupsm
+	{
+		height:30vh;
+	}*/
+
+	#sendsms
+	{	
+		height:145px;		
+	}
+
+	#sendsms textarea, #commoptions
+	{		
+		width:46%;
+		height:120px;		
+	}
+
+	#sendsms textarea
+	{
+		float:left;
+	}
+
+	#commoptions
+	{
+		float:right;
+		margin-left:15px;
+	}
+
+	#emailcommtype
+	{
+		display:none;
+	}
+
+	.popup select, .popup input, .popup textarea
+	{		
+		width:100%;
+		margin-bottom:10px;
+	}
+
+	.popupdata a.btn
+	{		
+		display:block;
+		margin:0;				
+	}
+
+	.popupdata span
+	{
+		clear:both;
+		display:block;
+		float:left;	
+		width:100%;			
+		margin-top:7px;
+		text-align:right;
+	}
+
+	#popup iframe
+	{		
+		height:calc(70vh - 40px);
+	}
+
+	#popup, #sendemailpopup, #filebrowserpopup, #newtaskpopup, #newtaskquestion, #changeappstatuswithdrawnjourney
+	{		
+		width:50%;		
+		margin-left:25%;
+	}
+
+	#havetocreatenewviewing
+	{		
+		width:30%;		
+		margin-left:35%;
+		border:1px solid black;
+	}
+
+	#newtaskpopup #outcome_task
+	{
+		font-weight:bold;
+	}
+
+	#commsemailpopup
+	{		
+		width:50%;		
+		margin-left:25%;
+		height: 65vh;
+	}
+
+	#commsemailpopup textarea
+	{
+		height: 40vh;
+	}
+
+	#dtemailresponsepanel ul li
+	{
+		display:inline-block;
+		width:24%;
+		text-align:center;
+	}
+
+	#dtemailresponsepanel ul li:first-child
+	{
+		text-align:left;
+	}
+
+	#sendemailpopup .col-sm-9
+	{
+		width:100%;
+	}
+
+	#dtemailresponsepanel a:hover
+	{
+		color:#00BFFF;
+	}
+
+	#dtemailresponsepanel ul li span, #sender
+	{
+		display:none;		
+	}
+
+	#dtemailresponsepanel ul li a:last-child
+	{
+		padding-left:7px;	
+	}
+	
+	#speeddials, .mobilequickaction
+	{		
+		width:50%;
+		top:17px;
+		right:5%;
+		text-align:right;
+	}
+
+	#speeddials a, .mobilequickaction a
+	{		
+		margin-left:20px;
+	}
+
+	.sendembox
+	{
+		width:100%;
+		height:127px !important;
+		padding-left:0 !important;
+	} 
+
+	#embtnbar
+	{
+		float:left;
+		display:block;
+		width:100%;
+		margin-bottom:5px;
+	}
+	
+	#sendemailbtn, #attachbtn, #emtempbtn
+	{
+		float:left;
+		width:95px;
+		margin-right:10px;
+	}
+
+	.sendembox textarea, .sendembox input, .sendembox select
+	{		
+		width:100% !important;
+		height:35px !important;	
+		margin-bottom:5px;	
+	}
+
+	.popupdata div.ck-editor
+	{
+		float:left;
+		clear:both;
+		width:100%;	
+		min-height: 200px; 	
+		max-height: 400px; 	
+	}
+
+	.popupdata .ck-editor__editable 
+	{
+		min-height: 200px;
+		max-height: 400px;     
+	}
+
+	.sendembox #smsoutcome
+	{
+		clear: none;
+		float: none;
+		position: absolute;
+		width: 70%;
+		top: 0px;		
+		right: 0;
+	}
+
+	#filebrowserpopup .popupdata
+	{
+		width:100%;
+		padding:0;		
+	}
+
+	#filebrowserpopup .panel-heading
+	{
+		margin-bottom:0 !important;
+		border-bottom:0 !important;
+	}
+	
+	#commemtemp
+	{		
+		width:182px;
+		top:32px;
+		left:105px;		
+	}
+
+	#fmbuttons a, #embtnbar a 
+	{
+		-moz-transition: background 0.5s;
+		-webkit-transition: background 0.5s;
+		-o-transition: background 0.5s;
+		-ms-transition: background 0.5s;
+		transition: background 0.5s;
+	}
+
+	#fmbuttons a:hover
+	{	
+		background-color:#666;
+	}
+
+	#fmbuttons
+	{		
+		width:50%;
+		top:25px;
+		right:10px;
+	}
+}
+
+@media screen and (max-width:520px)
+{
+    .col-sm-9 .panel.show.col5 .formdata > span
+    {
+        width:90% !important;
+    }
+
+    .footer-text
+    {
+        margin-left:10px;
+    }
+    .sidebar-user-info .user-profile
+    {
+        padding:0px 5px;
+    }
+
+	.popup
+	{    
+		top:3vh;
+	}
+	.popuptall
+	{
+		height:90vh;
+	}
+
+	.popupsm
+	{
+		min-height:90vh;
+	}
+	
+	.popupdata a.btn
+	{
+		
+		margin:15px 0 0;		
+	}
+
+	.popupdata span
+	{
+		display:block;		
+		width:100%;
+		margin-top:10px;
+	}
+
+	#popup iframe
+	{		
+		min-width:100%;
+		height:calc(70vh - 210px);
+	}
+
+	#popup, #commsemailpopup, #sendemailpopup, #filebrowserpopup
+	{		
+		width:98%;
+		margin-left:1%;
+	}
+
+	#dtemailresponsepanel ul.header
+	{
+		display:none;		
+	}
+
+	#dtemailresponsepanel ul
+	{
+		width:90%;
+		padding-inline-start:15px;
+	}
+
+	#dtemailresponsepanel li
+	{		
+		margin-bottom:15px;
+	}
+
+	#dtemailresponsepanel ul.emlink li:first-child
+	{
+		font-weight:bold;
+	}
+
+	#dtemailresponsepanel li a
+	{
+		display:block;
+		float:right;
+	}	
+
+	#dtcommunicationspanel .panel-heading, #dtdigitalcomms .panel-heading, #filebrowserpopup .panel-heading
+	{
+		height: 120px;
+	}
+		
+	#speeddials, .mobilequickaction
+	{		
+		width:95% !important;
+		top:70px;
+		left:18px;
+	}
+
+	#speeddials a, .mobilequickaction a
+	{		
+		margin-right:20px;
+	}
+
+	#sendsms
+	{
+		width:100%;		
+		margin-bottom:5px !important;
+	}
+
+	#sendsms input, #sendsms select, #sendsms textarea
+	{
+		margin-bottom:5px;
+	}
+
+	#embtnbar
+	{
+		margin-bottom:10px;
+	}
+
+	#commemtemp
+	{		
+		width:100%;
+		top:94px;
+		left:0;		
+	}
+
+	.popupdata div.ck-editor
+	{
+		float:left;
+		clear:both;
+		width:100%;	
+		height: 200px; 	
+	}
+
+	.popupdata .ck-editor__editable 
+	{
+		height: 200px;    
+	}
+	
+	#smsmsg
+	{
+		height:32px !important;
+	}
+
+	.viewingsappli
+	{
+		overflow:auto;
+	}
+
+	.viewingitemdiv
+	{
+		width:500px;
+	}
+
+	.fmlinks
+	{
+		max-height:350px;	
+		overflow:auto;
+	}
+
+	#fmbuttons
+	{		
+		width:80%;
+		top:70px;
+		margin-right:10%;
+	}
+}
